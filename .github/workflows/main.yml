@@ -21,8 +21,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t mennamedhat19/mennamedhat_2023040397:latest .
+          docker build -t mennamedhat197/mennamedhat_2023040397:latest .
 
       - name: Push Docker image
         run: |
-          docker push mennamedhat19/mennamedhat_2023040397:latest
+          docker push mennamedhat197/mennamedhat_2023040397:latest
